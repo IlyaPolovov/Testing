@@ -1,0 +1,52 @@
+```json
+{
+    "info": {
+        "_postman_id": "d99a6d64-6fbf-4db9-a6a9-7f4888f7c4f0",
+        "name": "SWAPI - Planets",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Planets",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://swapi.dev/api/planets/",
+                    "protocol": "https",
+                    "host": [
+                        "swapi",
+                        "dev"
+                    ],
+                    "path": [
+                        "api",
+                        "planets"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get Planet By ID",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://swapi.dev/api/planets/1/",
+                    "protocol": "https",
+                    "host": [
+                        "swapi",
+                        "dev"
+                    ],
+                    "path": [
+                        "api",
+                        "planets",
+                        "1"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
+```
